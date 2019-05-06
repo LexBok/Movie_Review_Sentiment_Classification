@@ -18,8 +18,6 @@
 * multiprocessing
 * random
 
-#Created by: 
-Alexander Bock
 
 ## Goal
 Use word embeddings in combination with your favourite classification algorithm to predict sentiment of movie reviews. The emphasis is on combining the two and overall code quality rather than fine tuning of the algorithm for superior accuracy.
@@ -53,3 +51,6 @@ and split the dataset into a a train/test set. On which we train a random forest
 * Confusion_matrix as png
 * Pickled Model RandomForestClassifier
 * sentiment_predictions as csv
+
+## Created by: 
+Alexander Bock
