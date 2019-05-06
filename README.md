@@ -1,5 +1,7 @@
-#Python Version used: 3.6.8
-Library dependencies:
+#Python Version used: 
+3.6.8 
+
+#Library dependencies:
 * pandas 0.24.1
 * re  2.2.1
 * numpy 1.15.4
