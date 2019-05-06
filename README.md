@@ -1,4 +1,4 @@
-# Movie Revie Sentiment Classification
+# Movie Review Sentiment Classification
 
 ## Python Version used: 
 3.6.8 
@@ -29,7 +29,7 @@ Use word embeddings in combination with your favourite classification algorithm 
 We need to label dataset, after that we need to check if the class are unbalanced. Following we clean the reviews and process them. We train a word embedding model
 and split the dataset into a a train/test set. On which we train a random forest classifier.  
 
-## Observations data:
+## Observations within the used data:
 1. punctuation seem to be removed but to be sure we will remove again
 2. no html formatting found e.g <br> but to be sure we shall remove nonetheless
 3. positive and negative reviews seem to be balanced in row length but are they balanced in text length?
@@ -38,7 +38,7 @@ and split the dataset into a a train/test set. On which we train a random forest
 6. We achieved a accuracy of ~70% using the trained word-embeddings. Using a pre-trained word-embedding model or using more training data is more likely to increase the performance of the.
 
 
-### Coding Steps:
+## Coding Steps:
 1. Load data
 2. Label data
 3. Combining both datasets into one and EDA
@@ -49,7 +49,7 @@ and split the dataset into a a train/test set. On which we train a random forest
 8. ?
 9. Profit
 
-### Output files:
+## Output files:
 * Confusion_matrix as png
 * Pickled Model RandomForestClassifier
 * sentiment_predictions as csv
