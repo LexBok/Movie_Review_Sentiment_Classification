@@ -1,5 +1,8 @@
 # Movie Review Sentiment Classification
 
+## Source of Movie Reviews:
+https://github.com/chattermill/nlp-challenge
+
 ## Python Version used: 
 3.6.8 
 
