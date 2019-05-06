@@ -1,5 +1,5 @@
 #Python Version used: 3.6.8
-#Library dependencies:
+Library dependencies:
 * pandas 0.24.1
 * re  2.2.1
 * numpy 1.15.4
@@ -14,7 +14,8 @@
 * multiprocessing
 * random
 
-#Created by: Alexander Bock
+#Created by: 
+Alexander Bock
 
 #Goal
 Use word embeddings in combination with your favourite classification algorithm to predict sentiment of movie reviews. The emphasis is on combining the two and overall code quality rather than fine tuning of the algorithm for superior accuracy.
